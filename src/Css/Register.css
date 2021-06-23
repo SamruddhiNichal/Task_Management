@@ -1,0 +1,36 @@
+#regdiv{
+    margin: 50px 100px 5px 100px;
+    background-color: rgb(108, 145, 145);
+}
+
+.reglabel{
+    font-size:larger;
+    color: black;
+
+}
+
+.reginput{
+    margin: 8px 0px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 20px;
+    width: 70%;
+    box-sizing: border-box;
+    border-color:gray;
+    font-size: medium;
+
+}
+.reginput:hover{
+    background-color: grey;
+}
+#regsubmit{
+    font-size: large;
+    width: 70%;
+    background-color:lightskyblue;
+    padding: 12px 20px;
+
+}
+#regsubmit:hover{
+    background-color: gray;
+    
+}

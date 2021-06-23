@@ -4,6 +4,11 @@ import RegisterComponent from './Components/RegisterComponent'
 import LoginComponent from './Components/LoginComponent';
 import UserInfo from './Components/UserInfo';
 import AddTask from './Components/AddTask';
+import UpdateTask from './Components/UpdateTask';
+import './Css/Login.css'
+import './Css/Register.css'
+import './Css/User.css'
+import './Css/Task.css'
 
 function App() {
   return (
@@ -29,6 +34,10 @@ function App() {
 
         <Route path='/addtask'>
         <AddTask/>
+        </Route>
+
+        <Route path='/updatetask'>
+        <UpdateTask/>
         </Route>
 
     

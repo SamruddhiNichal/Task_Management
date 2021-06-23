@@ -1,0 +1,48 @@
+.logindiv{
+    margin: 50px 100px 5px 100px;
+    background-color: rgb(108, 145, 145);
+}
+
+.loginInput{
+    margin: 8px 0px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 20px;
+    width: 70%;
+    box-sizing: border-box;
+    border-color: slategrey;
+    font-size: medium;
+}
+
+.loginInput:hover{
+    background-color: darkgray;
+}
+
+.loginlabel{
+    font-size:larger;
+    color: black;
+}
+
+#loginimg{
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 250px;
+
+}
+
+#loginbutton{
+    font-size: large;
+    width: 70%;
+    background-color:lightskyblue;
+    padding: 12px 20px;
+}
+
+#loginbutton:hover{
+    background-color: gray;
+}
+
+#loginanchor{
+    font-size: larger;
+    color: black;
+
+}
